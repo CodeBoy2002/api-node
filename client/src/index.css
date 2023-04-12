@@ -3,6 +3,27 @@
   padding: 0;
 }
 
+.home-container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: auto;
+  margin-top: 20%;
+}
+
+.home-container button {
+  padding: 6px;
+  margin: 10px;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+
+.link {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #24292e;
+}
+
 .container {
   border: 2px solid black;
   background-color: rgb(205, 182, 241);
